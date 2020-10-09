@@ -1,5 +1,5 @@
 package api;
 
 public interface Learn {
-    public Registration register(Subject subject, Room room);
+    Registration register(Subject subject, ClassRoom classRoom);
 }

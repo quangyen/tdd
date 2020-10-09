@@ -1,5 +1,5 @@
 package api;
 
-public class Room {
+public class ClassRoom {
     private int maxSeat;
 }
