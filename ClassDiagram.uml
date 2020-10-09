@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>api</OriginalElement>
+  <nodes>
+    <node x="0.0" y="104.0">api.Student</node>
+    <node x="0.0" y="406.0">api.ClassRoom</node>
+    <node x="0.0" y="203.0">api.Manage</node>
+    <node x="234.0" y="203.0">api.Registration</node>
+    <node x="0.0" y="307.0">api.Staff</node>
+    <node x="238.0" y="406.0">api.Subject</node>
+    <node x="0.0" y="0.0">api.Learn</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="api.Staff" target="api.Manage">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="api.Student" target="api.Learn">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="215.5" y="241.5" />
+  <SelectedNodes>
+    <node>api.Student</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
